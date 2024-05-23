@@ -1,27 +1,4 @@
 "use strict";
-var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    var desc = Object.getOwnPropertyDescriptor(m, k);
-    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
-      desc = { enumerable: true, get: function() { return m[k]; } };
-    }
-    Object.defineProperty(o, k2, desc);
-}) : (function(o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    o[k2] = m[k];
-}));
-var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
-    Object.defineProperty(o, "default", { enumerable: true, value: v });
-}) : function(o, v) {
-    o["default"] = v;
-});
-var __importStar = (this && this.__importStar) || function (mod) {
-    if (mod && mod.__esModule) return mod;
-    var result = {};
-    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
-    __setModuleDefault(result, mod);
-    return result;
-};
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
@@ -62,30 +39,32 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var mongoose_1 = __importDefault(require("mongoose"));
-var dotenv = __importStar(require("dotenv"));
-dotenv.config();
-var mongoUrl = process.env.MONGO_URL;
-var connectDB = function () { return __awaiter(void 0, void 0, void 0, function () {
-    var error_1;
-    return __generator(this, function (_a) {
-        switch (_a.label) {
-            case 0:
-                _a.trys.push([0, 3, , 4]);
-                if (!mongoUrl) return [3 /*break*/, 2];
-                return [4 /*yield*/, mongoose_1.default.connect(mongoUrl)];
-            case 1:
-                _a.sent();
-                _a.label = 2;
-            case 2:
-                console.log("database connected");
-                return [3 /*break*/, 4];
-            case 3:
-                error_1 = _a.sent();
-                console.error('Error connecting to MongoDB:', error_1);
-                return [3 /*break*/, 4];
-            case 4: return [2 /*return*/];
-        }
+exports.generateUniqueUserId = void 0;
+var teamEntryModel_1 = __importDefault(require("../adapters/data-access/models/teamEntryModel"));
+function generateUniqueUserId() {
+    return __awaiter(this, void 0, void 0, function () {
+        var userId, exists, userExists;
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0:
+                    exists = true;
+                    _a.label = 1;
+                case 1:
+                    if (!exists) return [3 /*break*/, 3];
+                    userId = generateRandomUserId();
+                    return [4 /*yield*/, teamEntryModel_1.default.exists({ userId: userId })];
+                case 2:
+                    userExists = _a.sent();
+                    exists = userExists !== null; // Update exists based on the result
+                    return [3 /*break*/, 1];
+                case 3: return [2 /*return*/, userId];
+            }
+        });
     });
-}); };
-exports.default = connectDB;
+}
+exports.generateUniqueUserId = generateUniqueUserId;
+function generateRandomUserId() {
+    var min = 1000000000;
+    var max = 9999999999;
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}

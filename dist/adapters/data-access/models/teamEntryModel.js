@@ -6,8 +6,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var mongoose_1 = __importDefault(require("mongoose"));
 var teamEntrySchema = new mongoose_1.default.Schema({
     userId: {
-        type: mongoose_1.default.Schema.Types.ObjectId,
-        ref: "User",
+        type: Number,
+        required: true,
     },
     teamName: {
         type: String,

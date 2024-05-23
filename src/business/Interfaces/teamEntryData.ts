@@ -1,7 +1,6 @@
-import { Types } from "mongoose";
 
 export interface teamEntryData {
-    userId?: Types.ObjectId;
+    userId?: Number ;
     teamName: string;
     players: string[];
     captain: string;

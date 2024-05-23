@@ -3,6 +3,8 @@ import { promises as fs } from 'fs';
 import * as path from 'path';
 import { validateTeam } from '../../../helperFunctions/validateTeam';
 import { checkMatchRules } from '../../../helperFunctions/checkMatchRules';
+import { saveTeamEntry } from '../../data-access/repositories/teamRepository';
+import { generateUniqueUserId } from '../../../helperFunctions/generateUserId';
 
 
 
@@ -30,6 +32,8 @@ export const addTeam = async (req: Request, res: Response, next: NextFunction) =
     try {
         console.log("addTeam:1");
         const { teamName, players, captain, viceCaptain } = req.body;
+        const userId: number | undefined = await generateUniqueUserId();
+        console.log("userId",userId)
         const isValidated = validateTeam({ teamName, players, captain, viceCaptain });
 
         if (isValidated) {
@@ -38,6 +42,7 @@ export const addTeam = async (req: Request, res: Response, next: NextFunction) =
 
             // Use allPlayersList in checkMatchRules
             await checkMatchRules(players, allPlayersList);
+            await saveTeamEntry({ userId, teamName, players, captain, viceCaptain })
             res.status(200).json({ message: "Team added successfully" });
         }
 

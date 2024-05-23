@@ -64,6 +64,8 @@ var fs_1 = require("fs");
 var path = __importStar(require("path"));
 var validateTeam_1 = require("../../../helperFunctions/validateTeam");
 var checkMatchRules_1 = require("../../../helperFunctions/checkMatchRules");
+var teamRepository_1 = require("../../data-access/repositories/teamRepository");
+var generateUserId_1 = require("../../../helperFunctions/generateUserId");
 var readPlayersFile = function (req, res, next) { return __awaiter(void 0, void 0, void 0, function () {
     var baseDir, filePath, data, playersList, error_1;
     return __generator(this, function (_a) {
@@ -90,31 +92,38 @@ var readPlayersFile = function (req, res, next) { return __awaiter(void 0, void 
 }); };
 exports.readPlayersFile = readPlayersFile;
 var addTeam = function (req, res, next) { return __awaiter(void 0, void 0, void 0, function () {
-    var _a, teamName, players, captain, viceCaptain, isValidated, allPlayersList, error_2;
+    var _a, teamName, players, captain, viceCaptain, userId, isValidated, allPlayersList, error_2;
     return __generator(this, function (_b) {
         switch (_b.label) {
             case 0:
-                _b.trys.push([0, 4, , 5]);
+                _b.trys.push([0, 6, , 7]);
                 console.log("addTeam:1");
                 _a = req.body, teamName = _a.teamName, players = _a.players, captain = _a.captain, viceCaptain = _a.viceCaptain;
-                isValidated = (0, validateTeam_1.validateTeam)({ teamName: teamName, players: players, captain: captain, viceCaptain: viceCaptain });
-                if (!isValidated) return [3 /*break*/, 3];
-                return [4 /*yield*/, (0, exports.readPlayersFile)(req, res, next)];
+                return [4 /*yield*/, (0, generateUserId_1.generateUniqueUserId)()];
             case 1:
+                userId = _b.sent();
+                console.log("userId", userId);
+                isValidated = (0, validateTeam_1.validateTeam)({ teamName: teamName, players: players, captain: captain, viceCaptain: viceCaptain });
+                if (!isValidated) return [3 /*break*/, 5];
+                return [4 /*yield*/, (0, exports.readPlayersFile)(req, res, next)];
+            case 2:
                 allPlayersList = _b.sent();
                 // Use allPlayersList in checkMatchRules
                 return [4 /*yield*/, (0, checkMatchRules_1.checkMatchRules)(players, allPlayersList)];
-            case 2:
+            case 3:
                 // Use allPlayersList in checkMatchRules
                 _b.sent();
-                res.status(200).json({ message: "Team added successfully" });
-                _b.label = 3;
-            case 3: return [3 /*break*/, 5];
+                return [4 /*yield*/, (0, teamRepository_1.saveTeamEntry)({ userId: userId, teamName: teamName, players: players, captain: captain, viceCaptain: viceCaptain })];
             case 4:
+                _b.sent();
+                res.status(200).json({ message: "Team added successfully" });
+                _b.label = 5;
+            case 5: return [3 /*break*/, 7];
+            case 6:
                 error_2 = _b.sent();
                 next(error_2);
-                return [3 /*break*/, 5];
-            case 5: return [2 /*return*/];
+                return [3 /*break*/, 7];
+            case 7: return [2 /*return*/];
         }
     });
 }); };
