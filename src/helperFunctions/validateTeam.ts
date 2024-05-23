@@ -2,7 +2,6 @@ import { teamEntryData } from "../business/Interfaces/teamEntryData";
 
 export const validateTeam = (teamData: teamEntryData) => {
 
-    console.log("validateTeam:2");
 
     const { teamName, players, captain, viceCaptain } = teamData;
 

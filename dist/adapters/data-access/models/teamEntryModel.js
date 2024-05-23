@@ -25,6 +25,15 @@ var teamEntrySchema = new mongoose_1.default.Schema({
         type: String,
         required: true,
     },
+    pointsList: {
+        type: Map,
+        of: Number,
+        default: {},
+    },
+    totalPoints: {
+        type: Number,
+        default: 0,
+    },
     createdAt: {
         type: Date,
         default: Date.now,

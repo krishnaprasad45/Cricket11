@@ -35,9 +35,6 @@ export const checkMatchRules = async (selectedPlayers: string[], playersData: Pl
             BWL: 0
         };
 
-        console.log("selectedPlayers:", selectedPlayers);
-        console.log("AllPlayers:", playersData);
-
         // Iterate through selected players and count each player type
         for (const player of selectedPlayers) {
             const playerInfo = playersData.find(p => p.Player === player);
@@ -46,7 +43,6 @@ export const checkMatchRules = async (selectedPlayers: string[], playersData: Pl
                 playerCount[roleKey]++;
             }
         }
-        console.log("playerCount:", playerCount);
 
         // Check if the player counts meet the match rules
         for (const type in matchRules) {

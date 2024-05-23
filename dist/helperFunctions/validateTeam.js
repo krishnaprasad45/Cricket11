@@ -2,7 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.validateTeam = void 0;
 var validateTeam = function (teamData) {
-    console.log("validateTeam:2");
     var teamName = teamData.teamName, players = teamData.players, captain = teamData.captain, viceCaptain = teamData.viceCaptain;
     if (!teamName) {
         throw { statusCode: 400, message: "Team name is required." };

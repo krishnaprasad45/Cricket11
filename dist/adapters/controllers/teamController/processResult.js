@@ -37,19 +37,43 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.processResult = void 0;
+var teamRepository_1 = require("../../data-access/repositories/teamRepository");
+var readMatchResult_1 = require("../../../helperFunctions/readMatchResult");
+var pointsCalculation_1 = require("../../../helperFunctions/pointsCalculation");
+var findTotalPoints_1 = require("../../../helperFunctions/findTotalPoints");
 var processResult = function (req, res, next) { return __awaiter(void 0, void 0, void 0, function () {
-    var city, data;
+    var userIdStr, userId, userData, matchResults, pointsList, totalPoints, isFieldUpdated, error_1;
     return __generator(this, function (_a) {
-        city = req.body.data;
-        try {
-            data = {};
-            res.json(data);
+        switch (_a.label) {
+            case 0:
+                _a.trys.push([0, 6, , 7]);
+                userIdStr = req.query.userId;
+                userId = Number(userIdStr);
+                return [4 /*yield*/, (0, teamRepository_1.findUserById)(userId)];
+            case 1:
+                userData = _a.sent();
+                return [4 /*yield*/, (0, readMatchResult_1.readMatchResult)(req, res, next)];
+            case 2:
+                matchResults = _a.sent();
+                if (!userData) return [3 /*break*/, 5];
+                return [4 /*yield*/, (0, pointsCalculation_1.pointsCalculation)(userData, matchResults)];
+            case 3:
+                pointsList = _a.sent();
+                totalPoints = (0, findTotalPoints_1.calculateTotalPoints)(pointsList);
+                return [4 /*yield*/, (0, teamRepository_1.updatePoints)({ userId: userId, pointsList: pointsList, totalPoints: totalPoints })];
+            case 4:
+                isFieldUpdated = _a.sent();
+                if (isFieldUpdated)
+                    res.status(200).json({ message: "Points updated successfully" });
+                _a.label = 5;
+            case 5: return [3 /*break*/, 7];
+            case 6:
+                error_1 = _a.sent();
+                console.error(error_1);
+                next(error_1);
+                return [3 /*break*/, 7];
+            case 7: return [2 /*return*/];
         }
-        catch (error) {
-            console.error(error);
-            next(error);
-        }
-        return [2 /*return*/];
     });
 }); };
 exports.processResult = processResult;

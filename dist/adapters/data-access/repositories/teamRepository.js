@@ -50,7 +50,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.saveTeamEntry = void 0;
+exports.findUserById = exports.updatePoints = exports.saveTeamEntry = void 0;
 var teamEntryModel_1 = __importDefault(require("../models/teamEntryModel"));
 function saveTeamEntry(data) {
     return __awaiter(this, void 0, void 0, function () {
@@ -59,12 +59,10 @@ function saveTeamEntry(data) {
             switch (_a.label) {
                 case 0:
                     _a.trys.push([0, 2, , 3]);
-                    console.log("saving data", data);
                     team = new teamEntryModel_1.default(__assign({}, data));
                     return [4 /*yield*/, team.save()];
                 case 1:
                     result = _a.sent();
-                    console.log("saved data", result);
                     return [2 /*return*/, result];
                 case 2:
                     error_1 = _a.sent();
@@ -76,3 +74,55 @@ function saveTeamEntry(data) {
     });
 }
 exports.saveTeamEntry = saveTeamEntry;
+function updatePoints(_a) {
+    var pointsList = _a.pointsList, totalPoints = _a.totalPoints, userIdStr = _a.userId;
+    return __awaiter(this, void 0, void 0, function () {
+        var userId, result, error_2;
+        return __generator(this, function (_b) {
+            switch (_b.label) {
+                case 0:
+                    _b.trys.push([0, 2, , 3]);
+                    userId = Number(userIdStr);
+                    if (!userId) {
+                        return [2 /*return*/, false];
+                    }
+                    return [4 /*yield*/, teamEntryModel_1.default.updateOne({ userId: userId }, {
+                            $set: {
+                                pointsList: pointsList,
+                                totalPoints: totalPoints
+                            }
+                        })];
+                case 1:
+                    result = _b.sent();
+                    return [2 /*return*/, result];
+                case 2:
+                    error_2 = _b.sent();
+                    console.error("Error in updating points:", error_2);
+                    return [2 /*return*/, false];
+                case 3: return [2 /*return*/];
+            }
+        });
+    });
+}
+exports.updatePoints = updatePoints;
+function findUserById(userId) {
+    return __awaiter(this, void 0, void 0, function () {
+        var userData, error_3;
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0:
+                    _a.trys.push([0, 2, , 3]);
+                    return [4 /*yield*/, teamEntryModel_1.default.findOne({ userId: userId })];
+                case 1:
+                    userData = _a.sent();
+                    return [2 /*return*/, userData];
+                case 2:
+                    error_3 = _a.sent();
+                    console.error("Error finding user", error_3);
+                    throw error_3;
+                case 3: return [2 /*return*/];
+            }
+        });
+    });
+}
+exports.findUserById = findUserById;
