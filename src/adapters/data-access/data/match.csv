@@ -1,0 +1,248 @@
+ID,innings,overs,ballnumber,batter,bowler,non-striker,extra_type,batsman_run,extras_run,total_run,non_boundary,isWicketDelivery,player_out,kind,fielders_involved,BattingTeam
+1304114,1,0,1,RD Gaikwad,TA Boult,DP Conway,NA,2,0,2,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,0,2,RD Gaikwad,TA Boult,DP Conway,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,0,3,RD Gaikwad,TA Boult,DP Conway,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,0,4,RD Gaikwad,TA Boult,DP Conway,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,0,5,RD Gaikwad,TA Boult,DP Conway,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,0,6,RD Gaikwad,TA Boult,DP Conway,NA,0,0,0,0,1,RD Gaikwad,caught,SV Samson,Chennai Super Kings
+1304114,1,1,1,DP Conway,M Prasidh Krishna,MM Ali,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,1,2,DP Conway,M Prasidh Krishna,MM Ali,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,1,3,MM Ali,M Prasidh Krishna,DP Conway,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,1,4,MM Ali,M Prasidh Krishna,DP Conway,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,1,5,MM Ali,M Prasidh Krishna,DP Conway,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,1,6,MM Ali,M Prasidh Krishna,DP Conway,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,2,1,DP Conway,TA Boult,MM Ali,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,2,2,DP Conway,TA Boult,MM Ali,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,2,3,DP Conway,TA Boult,MM Ali,NA,6,0,6,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,2,4,DP Conway,TA Boult,MM Ali,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,2,5,DP Conway,TA Boult,MM Ali,NA,4,0,4,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,2,6,DP Conway,TA Boult,MM Ali,NA,2,0,2,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,3,1,MM Ali,M Prasidh Krishna,DP Conway,NA,4,0,4,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,3,2,MM Ali,M Prasidh Krishna,DP Conway,NA,4,0,4,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,3,3,MM Ali,M Prasidh Krishna,DP Conway,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,3,4,MM Ali,M Prasidh Krishna,DP Conway,NA,6,0,6,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,3,5,MM Ali,M Prasidh Krishna,DP Conway,NA,4,0,4,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,3,6,MM Ali,M Prasidh Krishna,DP Conway,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,4,1,DP Conway,R Ashwin,MM Ali,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,4,2,MM Ali,R Ashwin,DP Conway,NA,4,0,4,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,4,3,MM Ali,R Ashwin,DP Conway,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,4,4,MM Ali,R Ashwin,DP Conway,NA,4,0,4,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,4,5,MM Ali,R Ashwin,DP Conway,NA,6,0,6,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,4,6,MM Ali,R Ashwin,DP Conway,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,5,1,MM Ali,TA Boult,DP Conway,NA,6,0,6,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,5,2,MM Ali,TA Boult,DP Conway,NA,4,0,4,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,5,3,MM Ali,TA Boult,DP Conway,NA,4,0,4,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,5,4,MM Ali,TA Boult,DP Conway,NA,4,0,4,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,5,5,MM Ali,TA Boult,DP Conway,NA,4,0,4,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,5,6,MM Ali,TA Boult,DP Conway,NA,4,0,4,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,6,1,DP Conway,YS Chahal,MM Ali,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,6,2,MM Ali,YS Chahal,DP Conway,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,6,3,DP Conway,YS Chahal,MM Ali,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,6,4,MM Ali,YS Chahal,DP Conway,NA,4,0,4,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,6,5,MM Ali,YS Chahal,DP Conway,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,6,6,DP Conway,YS Chahal,MM Ali,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,7,1,MM Ali,R Ashwin,DP Conway,wides,0,1,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,7,2,MM Ali,R Ashwin,DP Conway,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,7,3,DP Conway,R Ashwin,MM Ali,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,7,4,DP Conway,R Ashwin,MM Ali,NA,0,0,0,0,1,DP Conway,lbw,NA,Chennai Super Kings
+1304114,1,7,5,N Jagadeesan,R Ashwin,MM Ali,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,7,6,MM Ali,R Ashwin,N Jagadeesan,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,7,7,MM Ali,R Ashwin,N Jagadeesan,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,8,1,MM Ali,OC McCoy,N Jagadeesan,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,8,2,N Jagadeesan,OC McCoy,MM Ali,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,8,3,N Jagadeesan,OC McCoy,MM Ali,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,8,4,N Jagadeesan,OC McCoy,MM Ali,NA,0,0,0,0,1,N Jagadeesan,caught,R Parag,Chennai Super Kings
+1304114,1,8,5,AT Rayudu,OC McCoy,MM Ali,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,8,6,AT Rayudu,OC McCoy,MM Ali,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,9,1,AT Rayudu,R Ashwin,MM Ali,wides,0,1,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,9,2,AT Rayudu,R Ashwin,MM Ali,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,9,3,MM Ali,R Ashwin,AT Rayudu,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,9,4,MM Ali,R Ashwin,AT Rayudu,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,9,5,AT Rayudu,R Ashwin,MM Ali,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,9,6,MM Ali,R Ashwin,AT Rayudu,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,9,7,AT Rayudu,R Ashwin,MM Ali,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,10,1,MM Ali,YS Chahal,AT Rayudu,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,10,2,AT Rayudu,YS Chahal,MM Ali,NA,0,0,0,0,1,AT Rayudu,caught,D Padikkal,Chennai Super Kings
+1304114,1,10,3,MS Dhoni,YS Chahal,MM Ali,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,10,4,MS Dhoni,YS Chahal,MM Ali,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,10,5,MS Dhoni,YS Chahal,MM Ali,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,10,6,MS Dhoni,YS Chahal,MM Ali,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,11,1,MS Dhoni,TA Boult,MM Ali,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,11,2,MM Ali,TA Boult,MS Dhoni,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,11,3,MS Dhoni,TA Boult,MM Ali,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,11,4,MS Dhoni,TA Boult,MM Ali,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,11,5,MM Ali,TA Boult,MS Dhoni,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,11,6,MS Dhoni,TA Boult,MM Ali,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,12,1,MM Ali,OC McCoy,MS Dhoni,wides,0,1,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,12,2,MM Ali,OC McCoy,MS Dhoni,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,12,3,MS Dhoni,OC McCoy,MM Ali,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,12,4,MM Ali,OC McCoy,MS Dhoni,wides,0,1,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,12,5,MM Ali,OC McCoy,MS Dhoni,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,12,6,MS Dhoni,OC McCoy,MM Ali,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,12,7,MM Ali,OC McCoy,MS Dhoni,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,12,8,MS Dhoni,OC McCoy,MM Ali,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,13,1,MS Dhoni,R Ashwin,MM Ali,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,13,2,MM Ali,R Ashwin,MS Dhoni,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,13,3,MM Ali,R Ashwin,MS Dhoni,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,13,4,MM Ali,R Ashwin,MS Dhoni,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,13,5,MS Dhoni,R Ashwin,MM Ali,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,13,6,MM Ali,R Ashwin,MS Dhoni,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,14,1,MS Dhoni,YS Chahal,MM Ali,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,14,2,MS Dhoni,YS Chahal,MM Ali,NA,4,0,4,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,14,3,MS Dhoni,YS Chahal,MM Ali,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,14,4,MS Dhoni,YS Chahal,MM Ali,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,14,5,MM Ali,YS Chahal,MS Dhoni,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,14,6,MM Ali,YS Chahal,MS Dhoni,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,15,1,MM Ali,M Prasidh Krishna,MS Dhoni,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,15,2,MS Dhoni,M Prasidh Krishna,MM Ali,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,15,3,MS Dhoni,M Prasidh Krishna,MM Ali,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,15,4,MS Dhoni,M Prasidh Krishna,MM Ali,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,15,5,MS Dhoni,M Prasidh Krishna,MM Ali,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,15,6,MM Ali,M Prasidh Krishna,MS Dhoni,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,16,1,MM Ali,OC McCoy,MS Dhoni,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,16,2,MM Ali,OC McCoy,MS Dhoni,NA,2,0,2,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,16,3,MM Ali,OC McCoy,MS Dhoni,NA,4,0,4,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,16,4,MM Ali,OC McCoy,MS Dhoni,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,16,5,MM Ali,OC McCoy,MS Dhoni,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,16,6,MM Ali,OC McCoy,MS Dhoni,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,17,1,MS Dhoni,M Prasidh Krishna,MM Ali,NA,6,0,6,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,17,2,MS Dhoni,M Prasidh Krishna,MM Ali,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,17,3,MS Dhoni,M Prasidh Krishna,MM Ali,NA,2,0,2,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,17,4,MS Dhoni,M Prasidh Krishna,MM Ali,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,17,5,MM Ali,M Prasidh Krishna,MS Dhoni,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,17,6,MM Ali,M Prasidh Krishna,MS Dhoni,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,18,1,MM Ali,YS Chahal,MS Dhoni,NA,4,0,4,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,18,2,MM Ali,YS Chahal,MS Dhoni,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,18,3,MS Dhoni,YS Chahal,MM Ali,NA,2,0,2,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,18,4,MS Dhoni,YS Chahal,MM Ali,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,18,5,MM Ali,YS Chahal,MS Dhoni,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,18,6,MS Dhoni,YS Chahal,MM Ali,wides,0,1,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,18,7,MS Dhoni,YS Chahal,MM Ali,NA,0,0,0,0,1,MS Dhoni,caught,JC Buttler,Chennai Super Kings
+1304114,1,19,1,MM Ali,OC McCoy,MJ Santner,NA,0,0,0,0,1,MM Ali,caught,R Parag,Chennai Super Kings
+1304114,1,19,2,Simarjeet Singh,OC McCoy,MJ Santner,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,19,3,Simarjeet Singh,OC McCoy,MJ Santner,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,19,4,MJ Santner,OC McCoy,Simarjeet Singh,NA,0,0,0,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,19,5,MJ Santner,OC McCoy,Simarjeet Singh,NA,1,0,1,0,0,NA,NA,NA,Chennai Super Kings
+1304114,1,19,6,Simarjeet Singh,OC McCoy,MJ Santner,NA,2,0,2,0,0,NA,NA,NA,Chennai Super Kings
+1304114,2,0,1,YBK Jaiswal,Mukesh Choudhary,JC Buttler,NA,4,0,4,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,0,2,YBK Jaiswal,Mukesh Choudhary,JC Buttler,NA,4,0,4,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,0,3,YBK Jaiswal,Mukesh Choudhary,JC Buttler,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,0,4,JC Buttler,Mukesh Choudhary,YBK Jaiswal,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,0,5,JC Buttler,Mukesh Choudhary,YBK Jaiswal,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,0,6,JC Buttler,Mukesh Choudhary,YBK Jaiswal,NA,2,0,2,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,1,1,YBK Jaiswal,Simarjeet Singh,JC Buttler,NA,4,0,4,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,1,2,YBK Jaiswal,Simarjeet Singh,JC Buttler,legbyes,0,1,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,1,3,JC Buttler,Simarjeet Singh,YBK Jaiswal,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,1,4,JC Buttler,Simarjeet Singh,YBK Jaiswal,NA,0,0,0,0,1,JC Buttler,caught,MM Ali,Rajasthan Royals
+1304114,2,1,5,SV Samson,Simarjeet Singh,YBK Jaiswal,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,1,6,SV Samson,Simarjeet Singh,YBK Jaiswal,NA,2,0,2,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,2,1,YBK Jaiswal,Mukesh Choudhary,SV Samson,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,2,2,YBK Jaiswal,Mukesh Choudhary,SV Samson,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,2,3,YBK Jaiswal,Mukesh Choudhary,SV Samson,NA,4,0,4,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,2,4,YBK Jaiswal,Mukesh Choudhary,SV Samson,NA,4,0,4,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,2,5,YBK Jaiswal,Mukesh Choudhary,SV Samson,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,2,6,YBK Jaiswal,Mukesh Choudhary,SV Samson,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,3,1,SV Samson,Simarjeet Singh,YBK Jaiswal,NA,4,0,4,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,3,2,SV Samson,Simarjeet Singh,YBK Jaiswal,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,3,3,YBK Jaiswal,Simarjeet Singh,SV Samson,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,3,4,SV Samson,Simarjeet Singh,YBK Jaiswal,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,3,5,YBK Jaiswal,Simarjeet Singh,SV Samson,NA,4,0,4,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,3,6,YBK Jaiswal,Simarjeet Singh,SV Samson,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,4,1,SV Samson,Mukesh Choudhary,YBK Jaiswal,NA,4,0,4,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,4,2,SV Samson,Mukesh Choudhary,YBK Jaiswal,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,4,3,SV Samson,Mukesh Choudhary,YBK Jaiswal,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,4,4,YBK Jaiswal,Mukesh Choudhary,SV Samson,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,4,5,YBK Jaiswal,Mukesh Choudhary,SV Samson,NA,4,0,4,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,4,6,YBK Jaiswal,Mukesh Choudhary,SV Samson,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,5,1,YBK Jaiswal,Simarjeet Singh,SV Samson,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,5,2,YBK Jaiswal,Simarjeet Singh,SV Samson,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,5,3,SV Samson,Simarjeet Singh,YBK Jaiswal,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,5,4,SV Samson,Simarjeet Singh,YBK Jaiswal,legbyes,0,4,4,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,5,5,SV Samson,Simarjeet Singh,YBK Jaiswal,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,5,6,SV Samson,Simarjeet Singh,YBK Jaiswal,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,6,1,YBK Jaiswal,MJ Santner,SV Samson,NA,4,0,4,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,6,2,YBK Jaiswal,MJ Santner,SV Samson,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,6,3,YBK Jaiswal,MJ Santner,SV Samson,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,6,4,SV Samson,MJ Santner,YBK Jaiswal,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,6,5,YBK Jaiswal,MJ Santner,SV Samson,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,6,6,SV Samson,MJ Santner,YBK Jaiswal,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,7,1,YBK Jaiswal,M Pathirana,SV Samson,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,7,2,YBK Jaiswal,M Pathirana,SV Samson,wides,0,5,5,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,7,3,YBK Jaiswal,M Pathirana,SV Samson,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,7,4,YBK Jaiswal,M Pathirana,SV Samson,wides,0,1,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,7,5,YBK Jaiswal,M Pathirana,SV Samson,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,7,6,SV Samson,M Pathirana,YBK Jaiswal,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,7,7,SV Samson,M Pathirana,YBK Jaiswal,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,7,8,SV Samson,M Pathirana,YBK Jaiswal,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,8,1,SV Samson,MJ Santner,YBK Jaiswal,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,8,2,SV Samson,MJ Santner,YBK Jaiswal,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,8,3,SV Samson,MJ Santner,YBK Jaiswal,NA,0,0,0,0,1,SV Samson,caught and bowled,NA,Rajasthan Royals
+1304114,2,8,4,D Padikkal,MJ Santner,YBK Jaiswal,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,8,5,YBK Jaiswal,MJ Santner,D Padikkal,NA,2,0,2,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,8,6,YBK Jaiswal,MJ Santner,D Padikkal,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,9,1,YBK Jaiswal,MM Ali,D Padikkal,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,9,2,YBK Jaiswal,MM Ali,D Padikkal,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,9,3,YBK Jaiswal,MM Ali,D Padikkal,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,9,4,D Padikkal,MM Ali,YBK Jaiswal,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,9,5,D Padikkal,MM Ali,YBK Jaiswal,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,9,6,YBK Jaiswal,MM Ali,D Padikkal,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,10,1,D Padikkal,M Pathirana,YBK Jaiswal,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,10,2,D Padikkal,M Pathirana,YBK Jaiswal,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,10,3,YBK Jaiswal,M Pathirana,D Padikkal,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,10,4,D Padikkal,M Pathirana,YBK Jaiswal,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,10,5,D Padikkal,M Pathirana,YBK Jaiswal,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,10,6,D Padikkal,M Pathirana,YBK Jaiswal,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,11,1,YBK Jaiswal,MM Ali,D Padikkal,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,11,2,D Padikkal,MM Ali,YBK Jaiswal,NA,0,0,0,0,1,D Padikkal,bowled,NA,Rajasthan Royals
+1304114,2,11,3,R Ashwin,MM Ali,YBK Jaiswal,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,11,4,YBK Jaiswal,MM Ali,R Ashwin,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,11,5,R Ashwin,MM Ali,YBK Jaiswal,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,11,6,YBK Jaiswal,MM Ali,R Ashwin,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,12,1,YBK Jaiswal,MJ Santner,R Ashwin,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,12,2,R Ashwin,MJ Santner,YBK Jaiswal,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,12,3,YBK Jaiswal,MJ Santner,R Ashwin,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,12,4,R Ashwin,MJ Santner,YBK Jaiswal,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,12,5,R Ashwin,MJ Santner,YBK Jaiswal,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,12,6,R Ashwin,MJ Santner,YBK Jaiswal,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,13,1,R Ashwin,MM Ali,YBK Jaiswal,NA,6,0,6,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,13,2,R Ashwin,MM Ali,YBK Jaiswal,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,13,3,YBK Jaiswal,MM Ali,R Ashwin,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,13,4,R Ashwin,MM Ali,YBK Jaiswal,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,13,5,R Ashwin,MM Ali,YBK Jaiswal,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,13,6,YBK Jaiswal,MM Ali,R Ashwin,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,14,1,YBK Jaiswal,PH Solanki,R Ashwin,NA,6,0,6,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,14,2,YBK Jaiswal,PH Solanki,R Ashwin,legbyes,0,1,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,14,3,R Ashwin,PH Solanki,YBK Jaiswal,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,14,4,YBK Jaiswal,PH Solanki,R Ashwin,NA,2,0,2,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,14,5,YBK Jaiswal,PH Solanki,R Ashwin,NA,0,0,0,0,1,YBK Jaiswal,caught,M Pathirana,Rajasthan Royals
+1304114,2,14,6,SO Hetmyer,PH Solanki,R Ashwin,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,15,1,R Ashwin,MM Ali,SO Hetmyer,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,15,2,SO Hetmyer,MM Ali,R Ashwin,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,15,3,SO Hetmyer,MM Ali,R Ashwin,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,15,4,SO Hetmyer,MM Ali,R Ashwin,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,15,5,R Ashwin,MM Ali,SO Hetmyer,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,15,6,SO Hetmyer,MM Ali,R Ashwin,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,16,1,SO Hetmyer,PH Solanki,R Ashwin,NA,4,0,4,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,16,2,SO Hetmyer,PH Solanki,R Ashwin,NA,0,0,0,0,1,SO Hetmyer,caught,DP Conway,Rajasthan Royals
+1304114,2,16,3,R Parag,PH Solanki,R Ashwin,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,16,4,R Parag,PH Solanki,R Ashwin,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,16,5,R Ashwin,PH Solanki,R Parag,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,16,6,R Ashwin,PH Solanki,R Parag,NA,6,0,6,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,17,1,R Parag,M Pathirana,R Ashwin,wides,0,1,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,17,2,R Parag,M Pathirana,R Ashwin,NA,2,0,2,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,17,3,R Parag,M Pathirana,R Ashwin,NA,4,0,4,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,17,4,R Parag,M Pathirana,R Ashwin,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,17,5,R Parag,M Pathirana,R Ashwin,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,17,6,R Ashwin,M Pathirana,R Parag,NA,4,0,4,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,17,7,R Ashwin,M Pathirana,R Parag,legbyes,0,1,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,18,1,R Ashwin,Mukesh Choudhary,R Parag,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,18,2,R Parag,Mukesh Choudhary,R Ashwin,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,18,3,R Ashwin,Mukesh Choudhary,R Parag,NA,6,0,6,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,18,4,R Ashwin,Mukesh Choudhary,R Parag,NA,2,0,2,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,18,5,R Ashwin,Mukesh Choudhary,R Parag,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,18,6,R Parag,Mukesh Choudhary,R Ashwin,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,19,1,R Parag,M Pathirana,R Ashwin,legbyes,0,1,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,19,2,R Ashwin,M Pathirana,R Parag,NA,4,0,4,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,19,3,R Ashwin,M Pathirana,R Parag,NA,1,0,1,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,19,4,R Parag,M Pathirana,R Ashwin,NA,0,0,0,0,0,NA,NA,NA,Rajasthan Royals
+1304114,2,19,5,R Parag,M Pathirana,R Ashwin,wides,0,1,1,0,0,NA,NA,NA,Rajasthan Royals
