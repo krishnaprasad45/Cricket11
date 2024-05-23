@@ -50,7 +50,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.findUserById = exports.updatePoints = exports.saveTeamEntry = void 0;
+exports.getAllTeams = exports.findUserById = exports.updatePoints = exports.saveTeamEntry = void 0;
 var teamEntryModel_1 = __importDefault(require("../models/teamEntryModel"));
 function saveTeamEntry(data) {
     return __awaiter(this, void 0, void 0, function () {
@@ -126,3 +126,26 @@ function findUserById(userId) {
     });
 }
 exports.findUserById = findUserById;
+function getAllTeams() {
+    return __awaiter(this, void 0, void 0, function () {
+        var userData, error_4;
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0:
+                    _a.trys.push([0, 2, , 3]);
+                    console.log(300);
+                    return [4 /*yield*/, teamEntryModel_1.default.find()];
+                case 1:
+                    userData = _a.sent();
+                    console.log("userDatalist", userData);
+                    return [2 /*return*/, userData];
+                case 2:
+                    error_4 = _a.sent();
+                    console.error("Error finding user", error_4);
+                    throw error_4;
+                case 3: return [2 /*return*/];
+            }
+        });
+    });
+}
+exports.getAllTeams = getAllTeams;

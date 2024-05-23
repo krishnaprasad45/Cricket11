@@ -39,27 +39,38 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.teamResult = void 0;
-var rankForWinnner_1 = __importDefault(require("../../../helperFunctions/rankForWinnner"));
-var teamResult = function (req, res, next) { return __awaiter(void 0, void 0, void 0, function () {
-    var teamList, error_1;
+var teamEntryModel_1 = __importDefault(require("../adapters/data-access/models/teamEntryModel"));
+var getRankedTeams = function () { return __awaiter(void 0, void 0, void 0, function () {
+    var rankedTeams, error_1;
     return __generator(this, function (_a) {
         switch (_a.label) {
             case 0:
                 _a.trys.push([0, 2, , 3]);
-                console.log(200);
-                return [4 /*yield*/, (0, rankForWinnner_1.default)()];
+                return [4 /*yield*/, teamEntryModel_1.default.aggregate([
+                        { $sort: { totalPoints: -1 } },
+                        {
+                            $addFields: {
+                                rank: {
+                                    $indexOfArray: [["$totalPoints"], "$totalPoints"],
+                                },
+                            },
+                        },
+                        {
+                            $addFields: {
+                                rank: { $add: ["$rank", 1] },
+                            },
+                        },
+                        { $project: { userId: 0 } },
+                    ])];
             case 1:
-                teamList = _a.sent();
-                res.json(teamList);
-                return [3 /*break*/, 3];
+                rankedTeams = _a.sent();
+                return [2 /*return*/, rankedTeams];
             case 2:
                 error_1 = _a.sent();
-                console.error(error_1);
-                next(error_1);
-                return [3 /*break*/, 3];
+                console.error("Error while getting ranked teams:", error_1);
+                throw error_1;
             case 3: return [2 /*return*/];
         }
     });
 }); };
-exports.teamResult = teamResult;
+exports.default = getRankedTeams;
