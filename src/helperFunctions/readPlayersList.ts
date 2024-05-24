@@ -11,7 +11,6 @@ export const readPlayersFile = async (req: Request, res: Response, next: NextFun
         const data = await fs.readFile(filePath, 'utf-8');
         const playersList = JSON.parse(data);
 
-        // Return the playersList explicitly
         return playersList;
 
     } catch (error) {

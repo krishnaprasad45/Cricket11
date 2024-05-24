@@ -74,7 +74,6 @@ var readMatchResult = function (req, res, next) { return __awaiter(void 0, void 
             case 1:
                 data = _a.sent();
                 matchResult = JSON.parse(data);
-                // Return the matchResult explicitly
                 return [2 /*return*/, matchResult];
             case 2:
                 error_1 = _a.sent();

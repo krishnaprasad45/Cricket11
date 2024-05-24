@@ -33,7 +33,7 @@ export async function updatePoints({ pointsList, totalPoints, userId: userIdStr 
       }
     );
 
-  
+
     return result;
   } catch (error) {
     console.error("Error in updating points:", error);
@@ -53,9 +53,7 @@ export async function findUserById(userId: Number) {
 }
 export async function getAllTeams() {
   try {
-    console.log(300)
     const userData = await TeamEntry.find();
-    console.log("userDatalist",userData)
     return userData;
   } catch (error) {
     console.error("Error finding user", error);

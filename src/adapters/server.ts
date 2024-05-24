@@ -14,7 +14,7 @@ const HOST = process.env.HOST ;
 // Middleware
 app.use(express.json()); // Parse JSON bodies
 // Use the logging middleware
-// app.use(loggingMiddleware);
+app.use(loggingMiddleware);
 app.use(cors());
 const allowedOrigins = [HOST]; // Protected, Only allowed for HOST
 app.use(

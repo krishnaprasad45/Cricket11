@@ -74,7 +74,6 @@ var readPlayersFile = function (req, res, next) { return __awaiter(void 0, void 
             case 1:
                 data = _a.sent();
                 playersList = JSON.parse(data);
-                // Return the playersList explicitly
                 return [2 /*return*/, playersList];
             case 2:
                 error_1 = _a.sent();

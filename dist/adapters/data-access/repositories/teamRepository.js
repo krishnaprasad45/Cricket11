@@ -133,11 +133,9 @@ function getAllTeams() {
             switch (_a.label) {
                 case 0:
                     _a.trys.push([0, 2, , 3]);
-                    console.log(300);
                     return [4 /*yield*/, teamEntryModel_1.default.find()];
                 case 1:
                     userData = _a.sent();
-                    console.log("userDatalist", userData);
                     return [2 /*return*/, userData];
                 case 2:
                     error_4 = _a.sent();

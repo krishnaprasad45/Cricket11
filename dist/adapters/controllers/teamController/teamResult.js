@@ -47,7 +47,6 @@ var teamResult = function (req, res, next) { return __awaiter(void 0, void 0, vo
         switch (_a.label) {
             case 0:
                 _a.trys.push([0, 2, , 3]);
-                console.log(200);
                 return [4 /*yield*/, (0, rankForWinnner_1.default)()];
             case 1:
                 teamList = _a.sent();

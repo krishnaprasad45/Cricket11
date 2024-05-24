@@ -11,7 +11,7 @@ export const readMatchResult = async (req: Request, res: Response, next: NextFun
         const data = await fs.readFile(filePath, 'utf-8');
         const matchResult = JSON.parse(data);
 
-        // Return the matchResult explicitly
+        
         return matchResult;
 
     } catch (error) {

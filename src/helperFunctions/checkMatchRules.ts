@@ -1,15 +1,3 @@
-type MatchRules = {
-    WK: { min: number, max: number },
-    BAT: { min: number, max: number },
-    AR: { min: number, max: number },
-    BWL: { min: number, max: number }
-};
-
-type Player = {
-    Player: string,
-    Team: string,
-    Role: "WICKETKEEPER" | "BATTER" | "ALL-ROUNDER" | "BOWLER"
-};
 
 const matchRules: MatchRules = {
     WK: { min: 1, max: 8 },

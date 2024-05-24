@@ -8,4 +8,4 @@ userRoute.post('/add-team', addTeam);
 userRoute.get('/process-result', processResult);
 userRoute.get('/team-result', teamResult);
 
-export default userRoute;
+export default userRoute;       
